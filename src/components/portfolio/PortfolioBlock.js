@@ -3,18 +3,24 @@ import IconLink from "./IconLink";
 import {Box} from "@mui/material";
 import DeviceFrameImage from './DeviceFrameImage';
 import mobile1 from "../../img/mobile1.jpeg";
+import mobile2 from "../../img/mobile2.jpeg";
 
 function PortfolioBlock(props) {
    const {image, live, source, title} = props;
    
-   // Check if this is our SpinSync project
+   // Check if this is our SpinSync or PenItDown project
    const isSpinSync = title === "SpinSync: Table Tennis Finder";
+   const isPenItDown = title === "PenItDown: Modern Blog Platform";
    
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-         {isSpinSync ? (
+         {(isSpinSync || isPenItDown) ? (
             <Box sx={{ mb: '-1.5rem' }}>
-              <DeviceFrameImage laptopImage={image} mobileImage={mobile1} alt={title} />
+              <DeviceFrameImage 
+                laptopImage={image} 
+                mobileImage={isSpinSync ? mobile1 : mobile2} 
+                alt={title} 
+              />
             </Box>
          ) : (
             <Box component={'img'} src={image} alt={'mockup'} />
