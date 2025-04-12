@@ -1,6 +1,7 @@
 import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
 import project1 from "../img/project1.png";
+import project2 from "../img/project2.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/mock4.png";
@@ -113,6 +114,12 @@ export const info = {
       live: "https://spin-sync-fawn.vercel.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/apoorvcurry21/SpinSync", // this should be a link to the **repository** of the project, where the code is hosted.
       image: project1,
+    },
+    {
+      title: "PenItDown: Modern Blog Platform",
+      live: "https://pen-it-down-five.vercel.app",
+      source: "https://github.com/apoorvcurry21/PenItDown",
+      image: project2,
     }
   ],
 };
