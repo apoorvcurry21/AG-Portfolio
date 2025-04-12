@@ -1,42 +1,39 @@
 # My React Portfolio 🚀
 
-## A Simple Yet Stylish Portfolio for Developers
+## A Modern Portfolio Showcasing My Work
 
-![Screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)
+[Check out my portfolio live here!](https://ag-portfolio-five.vercel.app)
 
-[Live Demo](https://your-portfolio-link.com/)  
+## What's Inside ✨
 
-## Features ✨
-
-- 🌑 Dark Mode Toggler
-- 📖 Multiple Pages (React Router)
-- 📱 Fully Responsive
-- 🎨 Clean & Modern UI
-- ⚡ Fast & Lightweight
+- 🌑 Dark/Light mode toggle for better viewing experience
+- 📖 Multiple pages to explore my work and skills
+- 📱 Works smoothly on all devices
+- 🎨 Clean and modern design
+- ⚡ Fast loading and optimized performance
 
 ---
 
 ## Getting Started 🚀
 
-### Prerequisites
+### What You'll Need
 
-Before you begin, make sure you have:
 - [Git](https://git-scm.com/) installed
 - [Node.js](https://nodejs.org/en/download/) installed
-- Basic knowledge of command line
-- Some familiarity with JSON format (arrays of objects)
+- Basic command line knowledge
+- A code editor (VS Code recommended)
 
-### Installation 🛠️
+### Setting Up
 
-1. Clone the repo:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/AG-Portfolio.git
+   git clone https://github.com/apoorvcurry21/AG-Portfolio.git
    ```
-2. Navigate into the project:
+2. Move into the project directory:
    ```bash
    cd AG-Portfolio
    ```
-3. Install dependencies:
+3. Install the required packages:
    ```bash
    npm install
    ```
@@ -47,31 +44,31 @@ Before you begin, make sure you have:
 
 ---
 
-## Customization 🎨
+## Making It Your Own 🎨
 
-### 1. Update Images 🖼️
+### 1. Update Your Images 🖼️
 
-Go to `src/img/` and replace the images with your own. Make sure:
-- Your profile picture is named `self.png` (preferably with a transparent background)
-- Project screenshots are named `mock1.png`, `mock2.png`, etc.
+Head to `src/img/` and swap out the images with your own:
+- Profile picture should be `self.png` (transparent background works best)
+- Project screenshots should be named `mock1.png`, `mock2.png`, etc.
 
-### 2. Edit `Info.js`
+### 2. Personalize Your Info
 
-Open `src/info/Info.js` in a code editor and update:
-- Name, title, and social links
-- Color scheme (`colors` array)
-- Portfolio projects (titles, links, images)
+Open `src/info/Info.js` and customize:
+- Your personal details and social links
+- Color scheme to match your style
+- Your projects and their details
 
-### 3. Deploy 🚀
+### 3. Deploy Your Portfolio
 
-Once you're happy with your changes:
+When you're ready to share your work:
 ```bash
 npm run build
 ```
-Then deploy using:
-- GitHub Pages
+Deploy using:
+- Vercel (super easy and recommended)
 - Netlify
-- Vercel (recommended for easy setup)
+- GitHub Pages
 
 ---
 
